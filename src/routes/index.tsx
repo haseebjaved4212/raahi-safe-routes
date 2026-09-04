@@ -280,14 +280,14 @@ function RaahiPage() {
           onSelect={setActiveId}
         />
 
-        <div className="pointer-events-none absolute left-4 top-4 z-20 flex flex-wrap gap-2">
+        <div className="pointer-events-none absolute left-4 top-4 z-[600] flex flex-wrap gap-2">
           <Legend color="bg-safe" label="Stronger profile · 70+" />
           <Legend color="bg-caution" label="Moderate · 45–69" />
           <Legend color="bg-alert" label="Weaker · under 45" />
         </div>
 
         {activeRoute && (
-          <div className="pointer-events-none absolute bottom-4 left-4 right-4 z-20 mx-auto max-w-xl rounded-xl border border-border bg-background/90 px-4 py-3 backdrop-blur">
+          <div className="pointer-events-none absolute bottom-4 left-4 right-4 z-[600] mx-auto max-w-xl rounded-xl border border-border bg-background/90 px-4 py-3 backdrop-blur">
             <p className="text-xs uppercase tracking-[0.14em] text-muted-foreground">
               Showing {activeRoute.label} · {formatClock(minutes)}
             </p>
