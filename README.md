@@ -1,4 +1,6 @@
-# RAAHI Nav
+![RAAHI Header Banner](public/Banner-Image.png)
+
+# RAAHI 
 
 Build RAAHI, an AI-powered safety-aware navigation web app for Karachi, Pakistan, focused on women's freedom of movement.
 
