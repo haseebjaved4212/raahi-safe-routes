@@ -280,7 +280,7 @@ function RaahiPage() {
           onSelect={setActiveId}
         />
 
-        <div className="pointer-events-none absolute left-4 top-4 z-[600] flex flex-wrap gap-2">
+        <div className="pointer-events-none absolute left-16 top-4 z-[600] flex flex-wrap gap-2">
           <Legend color="bg-safe" label="Stronger profile · 70+" />
           <Legend color="bg-caution" label="Moderate · 45–69" />
           <Legend color="bg-alert" label="Weaker · under 45" />
