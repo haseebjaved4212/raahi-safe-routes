@@ -1,6 +1,13 @@
 ![RAAHI Header Banner](public/Banner-Image.png)
 
-# RAAHI 
+[![React](https://img.shields.io/badge/React-18-%2361DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5-%23646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-%233178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-%2306B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00C7B7?logo=vercel&logoColor=white)](https://raahi-safe-routes.lovable.app)
+
+# RAAHI
 
 Build RAAHI, an AI-powered safety-aware navigation web app for Karachi, Pakistan, focused on women's freedom of movement.
 
@@ -69,12 +76,14 @@ Do not add: an AI chatbot/therapist persona, an SOS panic button as the main fea
 Explainability example (match this style)
 
 Route A — 11 min — Safety Score: 44/100
+
 - Poor lighting
 - Low evening activity
 - Few open businesses
 - Recent community reports
 
 Route B — 15 min — Safety Score: 86/100
+
 - Better lighting
 - Main road
 - Active businesses
