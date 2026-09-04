@@ -108,9 +108,11 @@ export async function fetchWalkingRoutes(from: LatLng, to: LatLng): Promise<RawR
     throw new Error("No walking route found between these two places.");
   }
 
+  // The public OSRM demo server only serves the driving profile, so derive a
+  // walking duration from distance at ~4.9 km/h instead of trusting r.duration.
   const routes: RawRoute[] = json.routes.map((r) => ({
     coords: r.geometry.coordinates.map(([lon, lat]) => [lat, lon] as LatLng),
-    durationSec: r.duration,
+    durationSec: r.distance / 1.36,
     distanceM: r.distance,
   }));
 
