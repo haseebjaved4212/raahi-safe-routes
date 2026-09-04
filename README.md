@@ -107,18 +107,105 @@ This project was built with [Lovable](https://lovable.dev).
 
 **Live app**: https://raahi-safe-routes.lovable.app
 
-## Build with Lovable
+## Folder Structure 
+```
+────────────────────────────────────────────────────────────────────────────────
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/81b9cc47-c526-4813-b20d-5b93c3dbf66b).
+├── .lovable/
+│   └── project.json
+├── .tanstack/
+├── public/
+│   ├── Banner-Image.png
+│   ├── favicon.png
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── raahi/
+│   │   │   ├── MapView.tsx
+│   │   │   ├── RouteCard.tsx
+│   │   │   └── SearchField.tsx
+│   │   └── ui/
+│   │       ├── accordion.tsx
+│   │       ├── alert-dialog.tsx
+│   │       ├── alert.tsx
+│   │       ├── aspect-ratio.tsx
+│   │       ├── avatar.tsx
+│   │       ├── badge.tsx
+│   │       ├── breadcrumb.tsx
+│   │       ├── button.tsx
+│   │       ├── calendar.tsx
+│   │       ├── card.tsx
+│   │       ├── carousel.tsx
+│   │       ├── chart.tsx
+│   │       ├── checkbox.tsx
+│   │       ├── collapsible.tsx
+│   │       ├── command.tsx
+│   │       ├── context-menu.tsx
+│   │       ├── dialog.tsx
+│   │       ├── drawer.tsx
+│   │       ├── dropdown-menu.tsx
+│   │       ├── form.tsx
+│   │       ├── hover-card.tsx
+│   │       ├── input-otp.tsx
+│   │       ├── input.tsx
+│   │       ├── label.tsx
+│   │       ├── menubar.tsx
+│   │       ├── navigation-menu.tsx
+│   │       ├── pagination.tsx
+│   │       ├── popover.tsx
+│   │       ├── progress.tsx
+│   │       ├── radio-group.tsx
+│   │       ├── resizable.tsx
+│   │       ├── scroll-area.tsx
+│   │       ├── select.tsx
+│   │       ├── separator.tsx
+│   │       ├── sheet.tsx
+│   │       ├── sidebar.tsx
+│   │       ├── skeleton.tsx
+│   │       ├── slider.tsx
+│   │       ├── sonner.tsx
+│   │       ├── switch.tsx
+│   │       ├── table.tsx
+│   │       ├── tabs.tsx
+│   │       ├── textarea.tsx
+│   │       ├── toggle-group.tsx
+│   │       ├── toggle.tsx
+│   │       └── tooltip.tsx
+│   ├── hooks/
+│   │   └── use-mobile.tsx
+│   ├── lib/
+│   │   ├── raahi/
+│   │   │   ├── safety.ts
+│   │   │   └── services.ts
+│   │   ├── error-capture.ts
+│   │   ├── error-page.ts
+│   │   ├── lovable-error-reporting.ts
+│   │   └── utils.ts
+│   ├── routes/
+│   │   ├── README.md
+│   │   ├── __root.tsx
+│   │   └── index.tsx
+│   ├── routeTree.gen.ts
+│   ├── router.tsx
+│   ├── server.ts
+│   ├── start.ts
+│   └── styles.css
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── AGENTS.md
+├── README.md
+├── bun.lock
+├── bunfig.toml
+├── components.json
+├── eslint.config.js
+├── package-lock.json
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
+__________________________________________________
+```
 ```sh
 git clone <this-repository-url>
 cd <repository-name>
